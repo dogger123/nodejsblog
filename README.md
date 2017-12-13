@@ -1,3 +1,5 @@
+1. 安装依赖模块
+```
 express: web 框架
 express-session: session 中间件
 connect-mongo: 将 session 存储于 mongodb，结合 express-session 使用
@@ -12,6 +14,6 @@ objectid-to-timestamp: 根据 ObjectId 生成时间戳
 sha1: sha1 加密，用于密码加密
 winston: 日志
 express-winston: express 的 winston 日志中间件
+```
 
-
-启动项目：**supervisor index**
+2. 启动项目：**supervisor index**
